@@ -12,7 +12,7 @@ Wake on lan target enabled devices by sending magic packets to them from PHP.
 Require the package using [composer](https://getcomposer.org/):
 
 ```bash
-composer require diegonz/php-wake-on-lan
+composer require AshFieldJumper/php-wake-on-lan
 ```
 
 ## Usage:
