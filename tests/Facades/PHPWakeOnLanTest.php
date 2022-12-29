@@ -1,19 +1,19 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Tests\Facades;
+namespace ashfieldjumper\PHPWakeOnLan\Tests\Facades;
 
 use PHPUnit\Framework\TestCase;
-use Diegonz\PHPWakeOnLan\Facades\PHPWakeOnLan;
+use ashfieldjumper\PHPWakeOnLan\Facades\PHPWakeOnLan;
 
 /**
  * Class PHPWakeOnLanTest.
  *
- * @covers \Diegonz\PHPWakeOnLan\Facades\PHPWakeOnLan
+ * @covers \ashfieldjumper\PHPWakeOnLan\Facades\PHPWakeOnLan
  */
 class PHPWakeOnLanTest extends TestCase
 {
     /**
-     * @covers \Diegonz\PHPWakeOnLan\Facades\PHPWakeOnLan::getFacadeAccessor()
+     * @covers \ashfieldjumper\PHPWakeOnLan\Facades\PHPWakeOnLan::getFacadeAccessor()
      */
     public function testGetFacadeAccessor(): void
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan;
+namespace ashfieldjumper\PHPWakeOnLan;
 
 use RuntimeException;
 

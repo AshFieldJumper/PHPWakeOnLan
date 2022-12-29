@@ -1,9 +1,9 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan;
+namespace ashfieldjumper\PHPWakeOnLan;
 
 use RuntimeException;
-use Diegonz\PHPWakeOnLan\Socket\UdpBroadcastSocket;
+use ashfieldjumper\PHPWakeOnLan\Socket\UdpBroadcastSocket;
 
 /**
  * Class PHPWakeOnLan.

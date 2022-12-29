@@ -1,19 +1,19 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Tests\Socket;
+namespace ashfieldjumper\PHPWakeOnLan\Tests\Socket;
 
 use PHPUnit\Framework\TestCase;
-use Diegonz\PHPWakeOnLan\Socket\Socket;
+use ashfieldjumper\PHPWakeOnLan\Socket\Socket;
 
 /**
  * Class SocketTest.
  *
- * @covers \Diegonz\PHPWakeOnLan\Socket\Socket
+ * @covers \ashfieldjumper\PHPWakeOnLan\Socket\Socket
  */
 class SocketTest extends TestCase
 {
     /**
-     * @covers \Diegonz\PHPWakeOnLan\Socket\Socket::send()
+     * @covers \ashfieldjumper\PHPWakeOnLan\Socket\Socket::send()
      */
     public function testSend(): void
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Socket;
+namespace ashfieldjumper\PHPWakeOnLan\Socket;
 
 use RuntimeException;
 

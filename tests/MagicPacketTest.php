@@ -1,19 +1,19 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Tests;
+namespace ashfieldjumper\PHPWakeOnLan\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Diegonz\PHPWakeOnLan\MagicPacket;
+use ashfieldjumper\PHPWakeOnLan\MagicPacket;
 
 /**
  * Class MagicPacketTest.
  *
- * @covers  \Diegonz\PHPWakeOnLan\MagicPacket
+ * @covers  \ashfieldjumper\PHPWakeOnLan\MagicPacket
  */
 class MagicPacketTest extends TestCase
 {
     /**
-     * @covers \Diegonz\PHPWakeOnLan\MagicPacket::isMacAddressValid()
+     * @covers \ashfieldjumper\PHPWakeOnLan\MagicPacket::isMacAddressValid()
      */
     public function testIsMacAddressValid(): void
     {
@@ -23,7 +23,7 @@ class MagicPacketTest extends TestCase
     }
 
     /**
-     * @covers \Diegonz\PHPWakeOnLan\MagicPacket::trimMacAddress()
+     * @covers \ashfieldjumper\PHPWakeOnLan\MagicPacket::trimMacAddress()
      */
     public function testTrimMacAddress(): void
     {
@@ -31,7 +31,7 @@ class MagicPacketTest extends TestCase
     }
 
     /**
-     * @covers \Diegonz\PHPWakeOnLan\MagicPacket::packMacAddress()
+     * @covers \ashfieldjumper\PHPWakeOnLan\MagicPacket::packMacAddress()
      */
     public function testPackMacAddress(): void
     {
@@ -44,7 +44,7 @@ class MagicPacketTest extends TestCase
     }
 
     /**
-     * @covers \Diegonz\PHPWakeOnLan\MagicPacket::buildMagicPacketString()
+     * @covers \ashfieldjumper\PHPWakeOnLan\MagicPacket::buildMagicPacketString()
      * @throws \Exception
      */
     public function testBuildMagicPacketString(): void

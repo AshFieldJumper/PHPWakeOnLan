@@ -1,8 +1,8 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan;
+namespace ashfieldjumper\PHPWakeOnLan;
 
-use Diegonz\PHPWakeOnLan\Console\Wol;
+use ashfieldjumper\PHPWakeOnLan\Console\Wol;
 use Illuminate\Support\ServiceProvider;
 
 /**

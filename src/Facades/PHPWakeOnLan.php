@@ -1,6 +1,6 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Facades;
+namespace ashfieldjumper\PHPWakeOnLan\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

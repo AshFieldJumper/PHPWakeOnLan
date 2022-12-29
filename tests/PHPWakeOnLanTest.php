@@ -1,19 +1,19 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Tests;
+namespace ashfieldjumper\PHPWakeOnLan\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Diegonz\PHPWakeOnLan\PHPWakeOnLan;
+use ashfieldjumper\PHPWakeOnLan\PHPWakeOnLan;
 
 /**
  * Class PHPWakeOnLanTest.
  *
- * @covers \Diegonz\PHPWakeOnLan\PHPWakeOnLan
+ * @covers \ashfieldjumper\PHPWakeOnLan\PHPWakeOnLan
  */
 class PHPWakeOnLanTest extends TestCase
 {
     /**
-     * @covers \Diegonz\PHPWakeOnLan\PHPWakeOnLan::isBroadcastAddressValid()
+     * @covers \ashfieldjumper\PHPWakeOnLan\PHPWakeOnLan::isBroadcastAddressValid()
      */
     public function testIsBroadcastAddressValid(): void
     {
@@ -22,7 +22,7 @@ class PHPWakeOnLanTest extends TestCase
     }
 
     /**
-     * @covers \Diegonz\PHPWakeOnLan\PHPWakeOnLan::wake()
+     * @covers \ashfieldjumper\PHPWakeOnLan\PHPWakeOnLan::wake()
      * @throws \Exception
      */
     public function testWake(): void

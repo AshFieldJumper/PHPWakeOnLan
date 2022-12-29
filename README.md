@@ -1,9 +1,9 @@
 # PHPWakeOnLan
 
-[![Travis Build Status](https://img.shields.io/travis/diegonz/PHPWakeOnLan/master.svg?style=flat-square)](https://travis-ci.org/diegonz/PHPWakeOnLan)
+[![Travis Build Status](https://img.shields.io/travis/ashfieldjumper/PHPWakeOnLan/master.svg?style=flat-square)](https://travis-ci.org/ashfieldjumper/PHPWakeOnLan)
 [![StyleCI Status](https://github.styleci.io/repos/128269954/shield?branch=master)](https://github.styleci.io/repos/128269954)
-[![Codecov Status](https://img.shields.io/codecov/c/github/diegonz/PHPWakeOnLan.svg?style=flat-square)](https://codecov.io/gh/diegonz/PHPWakeOnLan)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/diegonz/php-wake-on-lan.svg?style=flat-square)](https://packagist.org/packages/diegonz/php-wake-on-lan)
+[![Codecov Status](https://img.shields.io/codecov/c/github/ashfieldjumper/PHPWakeOnLan.svg?style=flat-square)](https://codecov.io/gh/ashfieldjumper/PHPWakeOnLan)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ashfieldjumper/php-wake-on-lan.svg?style=flat-square)](https://packagist.org/packages/ashfieldjumper/php-wake-on-lan)
 
 Wake on lan target enabled devices by sending magic packets to them from PHP.
 
@@ -22,7 +22,7 @@ Normal PHP usage:
 ```php
 <?php
 
-use \Diegonz\PHPWakeOnLan\PHPWakeOnLan;
+use \ashfieldjumper\PHPWakeOnLan\PHPWakeOnLan;
 
 $macAddresses = [
     '00:1B:2C:1C:DF:22',
@@ -42,7 +42,7 @@ Laravel facade usage:
 ```php
 <?php
 
-use \Diegonz\PHPWakeOnLan\Facades\PHPWakeOnLan;
+use \ashfieldjumper\PHPWakeOnLan\Facades\PHPWakeOnLan;
 
 $macAddresses = [
     '00:1B:2C:1C:DF:22',
@@ -82,7 +82,7 @@ Array
 You can publish laravel package configuration file running the command below:
 
 ```bash
-php artisan vendor:publish --provider="Diegonz\PHPWakeOnLan\PHPWakeOnLanServiceProvider" --tag="config"
+php artisan vendor:publish --provider="ashfieldjumper\PHPWakeOnLan\PHPWakeOnLanServiceProvider" --tag="config"
 ```
 
 ### Testing
@@ -110,7 +110,7 @@ technology from AMD, one of its two co-developers.
 
 ## Credits
 
-- [Diego González](https://github.com/diegonz)
+- [Diego González](https://github.com/ashfieldjumper)
 
 ## License
 

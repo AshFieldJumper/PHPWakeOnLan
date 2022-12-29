@@ -1,9 +1,9 @@
 <?php
 
-namespace Diegonz\PHPWakeOnLan\Console;
+namespace ashfieldjumper\PHPWakeOnLan\Console;
 
 use Illuminate\Console\Command;
-use Diegonz\PHPWakeOnLan\Facades\PHPWakeOnLan;
+use ashfieldjumper\PHPWakeOnLan\Facades\PHPWakeOnLan;
 
 class Wol extends Command
 {
