@@ -1,5 +1,5 @@
 {
-    "name": "AshFieldJumper/php-wake-on-lan",
+    "name": "ashfieldjumper/php-wake-on-lan",
     "description": "Wake on lan target enabled devices by sending magic packets to them from PHP",
     "keywords": [
         "lan",
@@ -7,13 +7,13 @@
         "wakeonlan",
         "magicpacket"
     ],
-    "homepage": "https://github.com/AhsFieldJumper/php-wake-on-lan",
+    "homepage": "https://github.com/ashfieldjumper/php-wake-on-lan",
     "license": "MIT",
     "type": "library",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Diego González",
+            "name": "AshFieldJumper",
             "role": "Developer"
         }
     ],
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AshFieldJumper\\PHPWakeOnLan\\": "src"
+            "ashfieldjumper\\PHPWakeOnLan\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AshFieldJumper\\PHPWakeOnLan\\Tests\\": "tests"
+            "ashfieldjumper\\PHPWakeOnLan\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AshFieldJumper\\PHPWakeOnLan\\PHPWakeOnLanServiceProvider"
+                "ashfieldjumper\\PHPWakeOnLan\\PHPWakeOnLanServiceProvider"
             ],
             "aliases": {
-                "PHPWakeOnLan": "AshFieldJumper\\PHPWakeOnLan\\Facades\\PHPWakeOnLan"
+                "PHPWakeOnLan": "ashfieldjumper\\PHPWakeOnLan\\Facades\\PHPWakeOnLan"
             }
         }
     }
